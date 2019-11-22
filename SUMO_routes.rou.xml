@@ -1,0 +1,4 @@
+<routes>
+    <vType id="traffic_vehicle" accel="3.0" vClass="passenger" maxSpeed="40" speedFactor="2.0" speedDev="0.9" sigma="0.5" emissionClass="HBEFA3/PC_G_EU6"/>
+    <vType id="ego_vehicle" accel="3.0" vClass="passenger" maxSpeed="40" speedFactor="1.0" speedDev="0.9" sigma="0.5" emissionClass="HBEFA3/PC_G_EU6"/>
+</routes>

@@ -1,0 +1,6 @@
+<additional>
+   <tlLogic id="junction1" programID="alwaysgreen" offset="0" type="static">
+      <phase duration="100" state="GGggrr"/>
+      <phase duration="100" state="GGggrr"/>
+   </tlLogic>
+</additional>

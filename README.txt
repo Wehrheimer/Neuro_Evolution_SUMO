@@ -1,0 +1,1 @@
+config_SUMO nicht mit python öffnen oder im Python Format abspeichern
