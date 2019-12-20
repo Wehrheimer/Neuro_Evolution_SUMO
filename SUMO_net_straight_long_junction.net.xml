@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 11/01/19 10:56:46 by Eclipse SUMO netedit Version 1.2.0
+<!-- generated on 12/19/19 13:52:07 by Eclipse SUMO netedit Version 1.2.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="H:\CRISPIP4\Simulation\sim_model_repository\SUMO_net_straight_long_junction.net.xml"/>
+        <sumo-net-file value="H:\MT\Python\NEAT%20und%20SUMO\SUMO_net_straight_long_junction.net.xml"/>
     </input>
 
     <output>
-        <output-file value="H:\CRISPIP4\Simulation\sim_model_repository\SUMO_net_straight_long_junction.net.xml"/>
+        <output-file value="H:\MT\Python\NEAT%20und%20SUMO\SUMO_net_straight_long_junction.net.xml"/>
     </output>
 
     <processing>
@@ -120,6 +120,24 @@
     </tlLogic>
     <tlLogic id="junction1" type="static" programID="1" offset="0">
         <phase duration="20" state="GgrrGG"/>
+    </tlLogic>
+    <tlLogic id="junction1" type="static" programID="2" offset="0">
+        <phase duration="20" state="GgrrGG"/>
+        <phase duration="3"  state="yyrryy"/>
+        <phase duration="20" state="rrGGGr"/>
+        <phase duration="3"  state="rryyyr"/>
+    </tlLogic>
+    <tlLogic id="junction1" type="static" programID="3" offset="0">
+        <phase duration="20" state="GgrrGG"/>
+        <phase duration="3"  state="yyrryy"/>
+        <phase duration="42" state="rrGGGr"/>
+        <phase duration="3"  state="rryyyr"/>
+    </tlLogic>
+    <tlLogic id="junction1" type="static" programID="4" offset="0">
+        <phase duration="10" state="GgrrGG"/>
+        <phase duration="3"  state="yyrryy"/>
+        <phase duration="60" state="rrGGGr"/>
+        <phase duration="3"  state="rryyyr"/>
     </tlLogic>
 
     <junction id="endnode" type="dead_end" x="1750.00" y="150.00" incLanes="endedge_0" intLanes="" shape="1750.00,150.00 1750.00,146.80 1750.00,150.00"/>
